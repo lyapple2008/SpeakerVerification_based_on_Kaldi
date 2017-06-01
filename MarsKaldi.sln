@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compute-vad", "compute-vad\compute-vad.vcxproj", "{EB992F31-4B45-469C-8199-6A2A598C2772}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaldi-base", "kaldi-base\kaldi-base.vcxproj", "{F12FAFB2-2F51-4497-AF04-3473BB535ECC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaldi-util", "kaldi-util\kaldi-util.vcxproj", "{3782126B-4006-41BB-AD2A-C9FBA99B88A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaldi-matrix", "kaldi-matrix\kaldi-matrix.vcxproj", "{CA9CEBB0-D9A0-41EF-895F-857CD8E0A2BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +21,18 @@ Global
 		{EB992F31-4B45-469C-8199-6A2A598C2772}.Debug|Win32.Build.0 = Debug|Win32
 		{EB992F31-4B45-469C-8199-6A2A598C2772}.Release|Win32.ActiveCfg = Release|Win32
 		{EB992F31-4B45-469C-8199-6A2A598C2772}.Release|Win32.Build.0 = Release|Win32
+		{F12FAFB2-2F51-4497-AF04-3473BB535ECC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F12FAFB2-2F51-4497-AF04-3473BB535ECC}.Debug|Win32.Build.0 = Debug|Win32
+		{F12FAFB2-2F51-4497-AF04-3473BB535ECC}.Release|Win32.ActiveCfg = Release|Win32
+		{F12FAFB2-2F51-4497-AF04-3473BB535ECC}.Release|Win32.Build.0 = Release|Win32
+		{3782126B-4006-41BB-AD2A-C9FBA99B88A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3782126B-4006-41BB-AD2A-C9FBA99B88A5}.Debug|Win32.Build.0 = Debug|Win32
+		{3782126B-4006-41BB-AD2A-C9FBA99B88A5}.Release|Win32.ActiveCfg = Release|Win32
+		{3782126B-4006-41BB-AD2A-C9FBA99B88A5}.Release|Win32.Build.0 = Release|Win32
+		{CA9CEBB0-D9A0-41EF-895F-857CD8E0A2BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA9CEBB0-D9A0-41EF-895F-857CD8E0A2BF}.Debug|Win32.Build.0 = Debug|Win32
+		{CA9CEBB0-D9A0-41EF-895F-857CD8E0A2BF}.Release|Win32.ActiveCfg = Release|Win32
+		{CA9CEBB0-D9A0-41EF-895F-857CD8E0A2BF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
